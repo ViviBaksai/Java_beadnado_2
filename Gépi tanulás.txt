@@ -1,0 +1,10 @@
+
+classifier.getClass():class weka.classifiers.trees.J48
+
+classifier.getClass():class weka.classifiers.functions.SMO
+
+classifier.getClass():class weka.classifiers.bayes.NaiveBayes
+
+classifier.getClass():class weka.classifiers.lazy.IBk
+
+classifier.getClass():class weka.classifiers.trees.RandomForest

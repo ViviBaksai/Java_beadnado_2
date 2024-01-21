@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.beadando.javaeabeadando.GrafSoapController">
+    <children>
+        <LineChart fx:id="lineChart">
+            <xAxis>
+                <NumberAxis label="Date" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="MNB USD Árfolyam"/>
+            </yAxis>
+        </LineChart>
+        <Button mnemonicParsing="false" onAction="#onGrafButtonClick" text="Show MNB USD Chart" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+    </children>
+</AnchorPane>

@@ -1,11 +1,13 @@
-module com.example.beadando_2 {
+module com.beadando.javaeabeadando {
     requires javafx.controls;
     requires javafx.fxml;
-
-    requires org.controlsfx.controls;
-    requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+    requires weka.stable;
+    requires v20;
+    requires gson;
+    requires httpcore;
+    requires httpclient;
 
-    opens com.example.beadando_2 to javafx.fxml;
-    exports com.example.beadando_2;
+    opens com.beadando.javaeabeadando to javafx.fxml;
+    exports com.beadando.javaeabeadando;
 }

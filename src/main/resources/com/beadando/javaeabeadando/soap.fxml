@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="292.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.beadando.javaeabeadando.ParallelSoapController">
+    <GridPane fx:id="gr_soap" layoutY="20.0" prefHeight="272.0" prefWidth="580.0">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="133.0" minWidth="10.0" prefWidth="36.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="491.0" minWidth="191.0" prefWidth="491.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="222.0" minWidth="53.0" prefWidth="53.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="240.0" minHeight="10.0" prefHeight="240.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="33.0" minHeight="30.0" prefHeight="33.0" />
+    </rowConstraints>
+    <children>
+        <TextArea fx:id="welcomeText" prefHeight="148.0" prefWidth="397.0" promptText="Cash flow data are displayed immediately..." GridPane.columnIndex="1" />
+        <Button mnemonicParsing="false" onAction="#onHelloButtonClick" text="OANDA - START" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+    </children>
+    </GridPane>
+
+</AnchorPane>
